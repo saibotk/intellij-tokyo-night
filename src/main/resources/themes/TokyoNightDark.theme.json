@@ -40,7 +40,7 @@
     "*": {
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
-      "arc": "7",
+      "arc": 7,
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
