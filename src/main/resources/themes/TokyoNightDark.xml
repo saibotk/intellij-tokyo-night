@@ -474,6 +474,12 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GRAMMAR_ERROR">
+      <value>
+        <option name="EFFECT_COLOR" value="6374ff" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="HTML_CUSTOM_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="db9d7" />
@@ -816,7 +822,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="646e9c" />
+        <option name="FOREGROUND" value="7a7f9a" />
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
@@ -981,14 +987,14 @@
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="FOREGROUND" value="a9b1d6" />
+        <option name="FOREGROUND" value="b5bde5" />
         <option name="BACKGROUND" value="16161e" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="787c99" />
+        <option name="FOREGROUND" value="9196b9" />
         <option name="BACKGROUND" value="16161e" />
       </value>
     </option>
@@ -1008,6 +1014,24 @@
         <option name="BACKGROUND" value="283357" />
         <option name="EFFECT_COLOR" value="e0af68" />
         <option name="ERROR_STRIPE_COLOR" value="283357" />
+      </value>
+    </option>
+    <option name="TEXT_STYLE_ERROR">
+      <value>
+        <option name="EFFECT_COLOR" value="c94132" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TEXT_STYLE_SUGGESTION">
+      <value>
+        <option name="EFFECT_COLOR" value="494949" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="TEXT_STYLE_WARNING">
+      <value>
+        <option name="EFFECT_COLOR" value="d7cdae" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
