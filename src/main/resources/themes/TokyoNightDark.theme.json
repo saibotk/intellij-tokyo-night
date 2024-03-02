@@ -33,7 +33,7 @@
     "red": "#f7768e",
     "red1": "#db4b4b",
     "hoverBackground": "#232433",
-    "selectionInactiveBackground": "#414868",
+    "selectionBackground": "#414868",
     "separatorColor": "#545c7e"
   },
   "ui": {
@@ -47,8 +47,8 @@
       "infoForeground": "fgDark",
       "selectionForeground": "fg",
       "selectionInactiveForeground": "fg",
-      "selectionBackground": "hoverBackground",
-      "selectionInactiveBackground": "selectionInactiveBackground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "hoverBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
       "disabledBorderColor": "bgHi",
@@ -120,9 +120,7 @@
     },
     "CompletionPopup": {
       "foreground": "fgDark",
-      "selectionBackground": "green1",
-      "selectionInactiveBackground": "selectionInactiveBackground",
-      "matchForeground": "bgHi"
+      "matchForeground": "matchForeground"
     },
     "Component": {
       "focusColor": "hoverBackground",
