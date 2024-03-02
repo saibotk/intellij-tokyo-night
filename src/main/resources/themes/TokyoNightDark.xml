@@ -1,9 +1,14 @@
-<scheme name="Tokyo Night Dark" version="142">
+<scheme name="Tokyo Night Dark" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2024.1.0.0</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="41a6b5" />
     <option name="ANNOTATIONS_COLOR" value="a9b1d6" />
     <option name="CARET_COLOR" value="a9b1d6" />
     <option name="CARET_ROW_COLOR" value="1e202e" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="DELETED_LINES_COLOR" value="f7768e" />
     <option name="DIFF_SEPARATOR_WAVE" value="444b6a" />
     <option name="DOCUMENTATION_COLOR" value="16161e" />
@@ -11,7 +16,6 @@
     <option name="FILESTATUS_MODIFIED" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="1a1b26" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="41a6b5" />
-    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="455663" />
     <option name="INDENT_GUIDE" value="1e202f" />
     <option name="INFORMATION_HINT" value="16161e" />
     <option name="LINE_NUMBERS_COLOR" value="363b54" />
@@ -173,6 +177,7 @@
         <option name="FOREGROUND" value="c0caf5" />
       </value>
     </option>
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="7aa2f7" />
@@ -193,12 +198,14 @@
         <option name="FOREGROUND" value="db9d7" />
       </value>
     </option>
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="EFFECT_COLOR" value="a9b1d6" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9aa5ce" />
@@ -214,6 +221,8 @@
         <option name="FOREGROUND" value="9aa5ce" />
       </value>
     </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="9aa5ce" />
@@ -255,6 +264,7 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="5a638c" />
@@ -296,6 +306,7 @@
         <option name="FOREGROUND" value="e0af68" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="bb9af7" />
@@ -339,6 +350,7 @@
         <option name="FOREGROUND" value="c0caf5" />
       </value>
     </option>
+    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="fd914e" />
@@ -364,11 +376,14 @@
         <option name="FOREGROUND" value="2ac3de" />
       </value>
     </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="9ece6a" />
@@ -379,6 +394,7 @@
         <option name="FOREGROUND" value="ba3c8c" />
       </value>
     </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="61bdf2" />
@@ -432,6 +448,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DOC_TEMPLATE_PARAMETER" baseAttributes="PHP_CLASS" />
     <option name="DUPLICATE_FROM_SERVER">
       <value />
     </option>
@@ -481,11 +498,14 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_CUSTOM_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="db9d7" />
       </value>
     </option>
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f7768e" />
@@ -602,11 +622,15 @@
         <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="7dcfff" />
       </value>
     </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.MODULE_KEYWORD">
       <value>
         <option name="FOREGROUND" value="7dcfff" />
@@ -622,6 +646,7 @@
         <option name="FOREGROUND" value="ff9e66" />
       </value>
     </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="e2bd3a" />
@@ -876,6 +901,7 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
     <option name="PHP_CONCATENATION">
       <value>
         <option name="FOREGROUND" value="9dcc65" />
@@ -886,6 +912,7 @@
         <option name="FOREGROUND" value="e0af68" />
       </value>
     </option>
+    <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_STRING" />
     <option name="PHP_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="bb9af7" />
@@ -901,6 +928,7 @@
         <option name="FOREGROUND" value="fd914e" />
       </value>
     </option>
+    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_PRIMITIVE_TYPE_HINT">
       <value>
         <option name="FOREGROUND" value="eb86ee" />
@@ -911,6 +939,7 @@
         <option name="FOREGROUND" value="f7768e" />
       </value>
     </option>
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="d599e2" />
@@ -1104,10 +1133,19 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f7768e" />
       </value>
     </option>
+    <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
