@@ -1,8 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.saibotk.intellijtokyonight</id>
-    <name>Intellij Tokyo Night</name>
+    <name>Tokyo Night Theme (saibotk flavor)</name>
     <vendor>saibotk</vendor>
+
+    <description><![CDATA[
+        A dark theme for JetBrains IDEs based on the Tokyo Night color scheme, with many color customizations by saibotk.
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
